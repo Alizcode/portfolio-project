@@ -1,0 +1,199 @@
+@media screen and (max-width: 600px){
+    header{
+        padding: 0;
+    }
+    header .right-header{
+        padding: 0 !important;
+        .h-name{
+            text-align: center;
+            margin-top: .1rem;
+            padding-right: 0;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            .name{
+                font-size: 1.5rem;
+            }
+        }
+        p{
+            margin: .5rem !important;
+            font-size: 0.9rem;
+            line-height: 1.2rem !important;
+        }
+        .btn-container{
+            padding: 0.5rem;
+            .main-btn{
+                font-weight: 400;
+                font-size: .6rem;
+                .btn-text{
+                    padding: 0 1rem;
+                }
+                .btn-icon{
+                    border-radius: 50%;
+                    padding: 0.5rem;
+                }
+                
+            }
+        }
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .theme-btn{
+        width: 40px;
+        height: 40px;
+        i{
+            font-size: .9rem;
+        }
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 1rem;
+        padding-right: 0;
+        .left-header{
+            .h-img{
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    // about ********************
+
+    section{
+        padding: .5rem 2rem;
+    }
+    .main-title{
+        padding-top: .5rem;
+        h2{
+            padding-top: 2rem;
+            font-size: 2rem;
+            .bg-text{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2rem;
+        }
+        .left-about{
+            padding: 0;
+            h4{
+                font-size: 1.5rem;
+                padding-bottom: .5rem;
+            }
+            p{
+                padding: 0;
+            }
+        }
+        .about-content{
+            padding: 0;
+            .about-img{
+                width: 100%;
+                margin: 0 auto;
+            }
+            .about-text{
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+    }
+    .about-stats{
+        width: 100%;
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // portfolio
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+    .port-text{
+        font-size: .9rem;
+        padding: .5rem 0;
+    }
+
+
+    // my blogs
+
+    .blogs{
+        margin-top: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    // contact ********************
+
+    .contact-content-con{
+        flex-direction: column;
+        padding-top: 1.5rem;
+        .left-contact{
+            flex: 1;
+            .contact-info{
+                .contact-item{
+                    flex-direction: column;
+                    font-size: .6rem;
+                    p{
+                        font-size: .6rem;
+                    }
+                }
+            }
+            h4{
+                display: none;
+            }
+            p{
+                font-size: .9rem;
+            }
+            .contact-icons{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .right-contact{
+            flex: 1;
+            margin-left: 0;
+            .contact-form{
+                font-size: .7rem;
+            }
+            .message{
+                padding: 2rem 0;
+                width: 100%;
+                p{
+                    width: 100%;
+                    padding: 1rem 0;
+                    font-size: .6rem;
+                    font-weight: 300;
+                }
+            }
+        }
+        
+    }
+    // controls **********************
+    .controls{
+        .control{
+            margin: 0.4rem .3rem;
+            height: 40px;
+            width: 40px;
+            i{
+                font-size: .9rem;
+            }
+        }
+    }
+}
+
+//
